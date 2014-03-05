@@ -1,0 +1,54 @@
+h1, h2, h3, h4, h5, h6, p, li{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+.top-bar{
+	background:#92312d;
+	height:100px;
+}
+.contain-to-grid{
+	background:#92312d;
+}
+.top-bar-section li{
+	vertical-align: middle;
+}
+.top-bar-section li:not(.has-form) a:not(.button){
+	background:#92312d;
+	line-height:100px;
+	font-size: 1.0em;
+}
+.top-bar-section li:not(.has-form) a(.button){
+	line-height:100px;
+	font-size: 1.0em;
+}
+#orbit_container{
+	width: 627px;
+	margin:2% auto auto auto;
+}
+.center{
+	text-align: center;
+}
+.tab{
+	text-indent:50px;
+	text-align:justify;
+}
+.padding-top{
+	margin-top:3%;
+}
+#about_pic{
+	float:right;
+	border-style:outset;
+	border-width:5px;
+}
+.row.separator{
+	/*background: #f9d08f;
+	border: solid 1px #92312d;*/
+	margin: 20px 0 20px 0;
+}
+.popular_destinations_images{
+	vertical-align: middle;
+}
+
+#contact{
+	padding:5%;
+	border: solid 1px #92312d;
+}
